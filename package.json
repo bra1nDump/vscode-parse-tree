@@ -49,7 +49,9 @@
 		"onLanguage:scm",
 		"onLanguage:typescriptreact",
 		"onLanguage:xml",
-		"onLanguage:yaml"
+		"onLanguage:yaml",
+		"onLanguage:objective-c",
+		"onLanguage:objective-cpp"
 	],
 	"main": "./out/extension.js",
 	"capabilities": {
@@ -99,6 +101,7 @@
 		"tree-sitter-sparql": "^0.1.0",
 		"tree-sitter-typescript": "github:tree-sitter/tree-sitter-typescript#master",
 		"tree-sitter-yaml": "^0.5.0",
+	    "tree-sitter-objc": "github:jiyee/tree-sitter-objc#01dbc2cc0289f29146cab8194b51f732d7489a34",
 		"tslint": "^6.0.0",
 		"typescript": "^4.7.4",
 		"vsce": "^2.9.2",

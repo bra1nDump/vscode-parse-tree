@@ -41,6 +41,7 @@ const languages: {
   typescriptreact: { module: "tree-sitter-tsx" },
   xml: { module: "tree-sitter-html" },
   yaml: { module: "tree-sitter-yaml" },
+  "objective-cpp": {module: "tree-sitter-objc"}
 };
 
 // For some reason this crashes if we put it inside activate
