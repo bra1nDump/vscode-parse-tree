@@ -55,7 +55,8 @@
     "onLanguage:typescript",
     "onLanguage:typescriptreact",
     "onLanguage:xml",
-    "onLanguage:yaml"
+    "onLanguage:yaml",
+    "onLanguage:swift"
   ],
   "main": "./out/extension.js",
   "capabilities": {
@@ -63,7 +64,14 @@
       "supported": true
     }
   },
-  "contributes": {},
+  "contributes": {
+    "commands": [
+      {
+        "command": "test.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./ && make parsers",
